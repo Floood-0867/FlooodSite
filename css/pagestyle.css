@@ -1,7 +1,7 @@
 body {
     font-family: sans-serif;
     color: white;
-    background-color: #010406;
+    background-color: #021320;
     margin-left: auto;
     margin-right: auto;
     max-width: 95%;
@@ -13,9 +13,9 @@ body {
 }
 
 
-/*old background color: #021320*/
+/*old background color: 010406*/
 html {
-    /*background: #010406;*/
+    background: #010406;
     background-size: 8px 8px;
 }
 
@@ -52,11 +52,13 @@ nav li a:hover {
 }
 
 
-article.releases {
+article {
     background-color: #0d3753;
     padding: 2px;
     padding-left: 10px;
     max-width: 60%;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 
@@ -77,13 +79,18 @@ article.releases {
 
     }
 
-article.aboutus {
-    background-color: #0d3753;
-    padding: 2px;
-    padding-left: 10px;
-    max-width: 60%;
+article.about {
+/*background: linear-gradient(#077cff, #ff8300)*/
 }
 
-article.aboutus p {
+article.about p {
     padding: 8px
+}
+
+header {
+    background-color: #021320;
+    position: center;
+    right: 0px;
+    width: 50%;
+    padding: 10px;
 }
