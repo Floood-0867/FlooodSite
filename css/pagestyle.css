@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+    color: white;
+    background-color: #021320;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 95%;
+    min-width: 256px;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+html {
+    background: #010406;
+    background-size: 8px 8px;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #007cff;
+    border-block:10px;
+    font-weight:bold;
+    padding:16px;
+}
+nav ul li {
+    display: inline;
+    border-right:8px;
+    padding-right:8px;
+    padding-left:8px;
+}
+
+nav ul li:last-child {
+    border-right:none;
+}
+
+nav ul li a {
+    text-decoration:none;
+    color:white;
+}
+
+nav li.selected {
+    color: #b6b6b6;
+}
+
+nav li a:hover {
+    text-decoration:underline;
+}
+
+article.releases {
+    
+
+}
