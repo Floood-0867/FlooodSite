@@ -76,3 +76,14 @@ article.releases {
         padding:8px;
 
     }
+
+article.aboutus {
+    background-color: #0d3753;
+    padding: 2px;
+    padding-left: 10px;
+    max-width: 60%;
+}
+
+article.aboutus p {
+    padding: 8px
+}
