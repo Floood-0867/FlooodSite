@@ -10,11 +10,16 @@ body {
     max-width: 95%;
     min-width: 256px;
     padding-top: 1%;
-    padding-bottom: 2%;
+    padding-bottom: 0;
     padding-left: 2%;
     padding-right: 2%;
     border-radius: 10px;
 }
+
+div.main {
+}
+
+
 
 
 @media all and (min-width: 900px) {
@@ -41,7 +46,7 @@ body {
 /*old background color: 010406*/
 html {
     background: #010508;
-    background-size: 8px 8px;
+    background-size: 10px 10px;
 }
 
 nav {
@@ -131,9 +136,16 @@ article a {
 
 
     footer {
-        background-color: black;
-        padding:8px;
-        border-radius:10px;
+        background-color: #010508;
+        width: 100%;
+        text-align:left;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-left: 3%;
+        padding-right: 3%;
+        margin-right: -3%;
+        margin-left: -3%;
+        width:auto;
     }
 
 article.about {
