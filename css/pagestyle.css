@@ -22,7 +22,7 @@ div.main {
 
 
 
-@media all and ((min-width: 900px), (orientation: landscape)){
+@media all and (min-aspect-ratio: 4/3){
     article{
         float:left;
         width:60%;
