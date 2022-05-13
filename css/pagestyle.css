@@ -22,7 +22,7 @@ div.main {
 
 
 
-@media all and (min-width: 900px) {
+@media all and (min-width: 900px), (orientation: landscape){
     article{
         float:left;
         width:60%;
