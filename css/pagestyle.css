@@ -38,6 +38,18 @@ div.main {
     footer{
         clear:both;
     }
+    
+
+
+}
+
+
+@media all and not (min-aspect-ratio: 4/3) {
+    nav ul{
+    font-size: 200%;
+    
+    }
+
 
 }
 
