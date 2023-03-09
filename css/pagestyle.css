@@ -1,20 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
-
 
 body {
-    font-family: 'Merriweather', serif;
+    font-family: 'Helvetica', 'Arial', sans-serif;
     color: white;
     background: rgb(255,100,0);
-    background: linear-gradient(0deg, rgba(255,100,0,1) 0%, rgba(96,52,67,1) 40%, rgba(96,52,67,1) 60%, rgba(73,123,255,1) 100%);
+    background: linear-gradient(0deg, rgba(255,100,0,1) 0%, rgba(96,52,67,1) 50%, rgba(73,123,255,1) 100%);
     margin-left: auto;
     margin-right: auto;
     max-width: 95%;
     min-width: 256px;
-    /*padding-top: 1%;*/
+    /*padding-top: 2%;*/
     padding-bottom: 0;
     padding-left: 0%;
     padding-right: 0%;
-    border-radius: 10px;
+    /*border-radius: 10px;*/
 }
 
 div.main {
@@ -71,11 +69,14 @@ nav {
     nav ul {
         font-size: 150%;
         list-style-type: none;
-        background: rgba(010,010,010,0.8);
+        background: #171f37;
         /*border-radius: 5px;*/
         border-block: 10px;
         font-weight: bold;
         padding: 16px;
+        border:2px;
+        border-style:outset;
+        border-color:black;
     }
 
     nav ul li {
@@ -105,12 +106,15 @@ nav li a:hover {
 
 article {
     background-color: #3d3d3d;
-    background: rgba(010,010,010,0.7);
+    background: rgba(10,10,10,0.9);
     color: white;
     padding: 2px;
     padding-left: 10px;
     padding-bottom: 5px;
     margin-bottom: 10px;
+    border:2px;
+    border-style:outset;
+    border-color:black;
     /*border-radius: 10px;*/
 }
 
@@ -176,8 +180,13 @@ footer a {
     display: inline-block;
 }
 
+/*h3 {
+    text-align:center;
+}*/
 
-
+article h2 {
+    text-align:center;
+}
 
 article.about {
     /*background: linear-gradient(#077cff, #ff8300)*/
@@ -198,13 +207,17 @@ header {
 
 
 aside {
+    text-align: center;
     background-color: #181818;
-    background: rgba(010,010,010,0.5);
+    background: rgba(010,010,010,0.7);
     padding: 2px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 5px;
     margin-bottom: 10px;
+    border:2px;
+    border-style:outset;
+    border-color:black;
     /*border-radius: 10px;*/
 }
 
