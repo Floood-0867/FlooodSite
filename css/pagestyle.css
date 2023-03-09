@@ -118,6 +118,25 @@ article {
     /*border-radius: 10px;*/
 }
 
+article section {
+    border-bottom:3px;
+    border-style:solid;
+    border-color:gray;
+    margin-bottom:3px;
+    padding:5px;
+}
+
+article section h3 {
+    text-decoration:underline;
+    /*border:0px;
+    border-bottom:2px;
+    padding:0px;
+    padding-bottom:4px;
+    border-color:white;
+    border-style:dashed;*/
+}
+
+
 article a {
     text-decoration:underline;
     color:lightgray;
