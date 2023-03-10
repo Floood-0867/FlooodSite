@@ -2,17 +2,21 @@
 body {
     font-family: 'Helvetica', 'Arial', sans-serif;
     color: white;
-    background: rgb(255,100,0);
-    background: linear-gradient(0deg, rgba(255,100,0,1) 0%, rgba(96,52,67,1) 50%, rgba(73,123,255,1) 100%);
+    background: #003366 ;
+    /*background: linear-gradient(180deg, #3366FF 0%, #FF6600 100%);*/
     margin-left: auto;
     margin-right: auto;
-    max-width: 95%;
+    max-width: 800px;
     min-width: 256px;
     /*padding-top: 2%;*/
-    padding-bottom: 0;
-    padding-left: 0%;
-    padding-right: 0%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
     /*border-radius: 10px;*/
+    border-size:3px;
+    border-style:ridge;
+    border-color:black;
+    box-shadow: 10px 10px black;
 }
 
 div.main {
@@ -50,15 +54,12 @@ div.main {
     }
 
 
-}
-
-
-
-old background color: 010406
-html {
-    background: #181818;
-    background-size: 10px 10px;
 }*/
+
+html {
+    background-color: #181818;
+    background: linear-gradient(180deg, #000033 0%, #ff3300 100%);
+}
 
 nav {
     float:right;
@@ -67,9 +68,8 @@ nav {
 
 
     nav ul {
-        font-size: 150%;
         list-style-type: none;
-        background: #171f37;
+        background: #000033;
         /*border-radius: 5px;*/
         border-block: 10px;
         font-weight: bold;
@@ -105,11 +105,12 @@ nav li a:hover {
 
 
 article {
-    background-color: #3d3d3d;
-    background: rgba(10,10,10,0.9);
+    background-color: #000033;
+    background: #000033;
     color: white;
     padding: 2px;
     padding-left: 10px;
+    padding-right:10px;
     padding-bottom: 5px;
     margin-bottom: 10px;
     border:2px;
@@ -164,6 +165,10 @@ article.blog img {
         /*border-radius: 15px;*/
     }
 
+article.blog.noaside {
+	width:auto;
+}
+
 .pixelart
 {
     image-rendering: optimizeSpeed; /* STOP SMOOTHING, GIVE ME SPEED  */
@@ -179,14 +184,17 @@ article.blog img {
 
 footer {
     background-color: #181818;
-    background: rgba(010,010,010,0.4);
+    background: #000033;
+    border:2px;
+    border-style:outset;
+    border-color:black;
     /*border-radius: 6px;*/
     width: 100%;
     text-align: center;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 1%;
-    padding-right: 1px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
     margin-right: 0%;
     margin-left: 0%;
     margin-bottom: 0%;
@@ -197,6 +205,7 @@ footer {
 footer a {
     color: aliceblue;
     display: inline-block;
+    
 }
 
 /*h3 {
@@ -228,7 +237,7 @@ header {
 aside {
     text-align: center;
     background-color: #181818;
-    background: rgba(010,010,010,0.7);
+    background: #000033;
     padding: 2px;
     padding-left: 10px;
     padding-right: 10px;
