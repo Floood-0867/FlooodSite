@@ -25,7 +25,7 @@ div.main {
 
 
 
-@media all and (min-aspect-ratio: 4/3){
+@media all and (min-aspect-ratio: 1/1){
     article{
         float:left;
         width:60%;
