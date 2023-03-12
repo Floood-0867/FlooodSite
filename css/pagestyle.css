@@ -2,8 +2,8 @@
 body {
     font-family: 'Helvetica', 'Arial', sans-serif;
     color: white;
-    background: #003366 ;
-    /*background: linear-gradient(180deg, #3366FF 0%, #FF6600 100%);*/
+    background: #036 ;
+    /*background: linear-gradient(#36F, #F60);*/
     margin-left: auto;
     margin-right: auto;
     max-width: 800px;
@@ -57,8 +57,8 @@ div.main {
 }*/
 
 html {
-    background-color: #181818;
-    background: linear-gradient(180deg, #000033 0%, #ff3300 100%);
+    background-color: black;
+    background: linear-gradient(#003, #f30);
 }
 
 nav {
@@ -69,7 +69,7 @@ nav {
 
     nav ul {
         list-style-type: none;
-        background: #000033;
+        background: #003;
         /*border-radius: 5px;*/
         border-block: 10px;
         font-weight: bold;
@@ -105,8 +105,8 @@ nav li a:hover {
 
 
 article {
-    background-color: #000033;
-    background: #000033;
+    background-color: #003;
+    background: #003;
     color: white;
     padding: 2px;
     padding-left: 10px;
@@ -183,8 +183,8 @@ article.blog.noaside {
 
 
 footer {
-    background-color: #181818;
-    background: #000033;
+    background-color: black;
+    background: #003;
     border:2px;
     border-style:outset;
     border-color:black;
@@ -225,7 +225,7 @@ article.about p {
 }
 
 header {
-    /*background-color: #212121;*/
+    /*background-color: #333;*/
     position: center;
     right: 0px;
     width: 50%;
@@ -236,8 +236,8 @@ header {
 
 aside {
     text-align: center;
-    background-color: #181818;
-    background: #000033;
+    background-color: #000000;
+    background: #003;
     padding: 2px;
     padding-left: 10px;
     padding-right: 10px;
