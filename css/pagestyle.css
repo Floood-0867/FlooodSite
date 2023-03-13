@@ -6,9 +6,9 @@ body {
     /*background: linear-gradient(#36F, #F60);*/
     margin-left: auto;
     margin-right: auto;
+	margin-bottom: 20px;
     max-width: 800px;
     min-width: 256px;
-    /*padding-top: 2%;*/
     padding-bottom: 1%;
     padding-left: 2%;
     padding-right: 2%;
@@ -16,7 +16,7 @@ body {
     border-size:3px;
     border-style:ridge;
     border-color:black;
-    box-shadow: 10px 10px black;
+    box-shadow: 20px 20px black;
 }
 
 div.main {
@@ -58,7 +58,10 @@ div.main {
 
 html {
     background-color: black;
-    background: linear-gradient(#003, #f30);
+	background: -moz-linear-gradient(0deg, rgba(255,51,0,1) 0%, rgba(0,0,51,1) 100%);
+	background: -webkit-linear-gradient(0deg, rgba(255,51,0,1) 0%, rgba(0,0,51,1) 100%);
+	background: linear-gradient(0deg, rgba(255,51,0,1) 0%, rgba(0,0,51,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff3300",endColorstr="#000033",GradientType=1);
 }
 
 nav {
@@ -272,3 +275,12 @@ h4 {
     font-weight: bold;
 }
 
+img.headshot-about {
+	float: left; 
+	background: -moz-linear-gradient(45deg, rgba(255,0,0,1) 0%, rgba(255,255,0,1) 25%, rgba(0,192,255,1) 50%, rgba(192,0,255,1) 75%, rgba(255,0,0,1) 100%);
+	background: -webkit-linear-gradient(45deg, rgba(255,0,0,1) 0%, rgba(255,255,0,1) 25%, rgba(0,192,255,1) 50%, rgba(192,0,255,1) 75%, rgba(255,0,0,1) 100%);
+	background: linear-gradient(45deg, rgba(255,0,0,1) 0%, rgba(255,255,0,1) 25%, rgba(0,192,255,1) 50%, rgba(192,0,255,1) 75%, rgba(255,0,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff0000",endColorstr="#ff0000",GradientType=1);
+	padding:2px; 
+	margin-right:10px;"
+}
