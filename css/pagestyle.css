@@ -50,7 +50,7 @@ div.main {
 html {
     background-color: black;
 	background: -moz-linear-gradient(0deg, rgba(255,51,0,1) 0%, rgba(0,0,51,1) 100%);
-	background: -webkit-linear-gradient(0deg, rgba(255,51,0,1) 0%, rgba(0,0,51,1) 100%);
+	background: -webkit-linear-gradient(90deg, rgba(255,51,0,1) 0%, rgba(0,0,51,1) 100%);
 	background: linear-gradient(0deg, rgba(255,51,0,1) 0%, rgba(0,0,51,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff3300",endColorstr="#000033",GradientType=1);
 }
