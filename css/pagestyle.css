@@ -100,7 +100,7 @@ nav li a:hover {
 article {
     background-color: #003;
     background: #003;
-    color: white;
+    color: #ededed;
     padding: 2px;
     padding-left: 10px;
     padding-right:10px;
@@ -237,6 +237,10 @@ p.date {
     float: right;
 }
 
+h5 {
+	font-size:125%;
+	
+}
 
 h4 {
     display: block;
