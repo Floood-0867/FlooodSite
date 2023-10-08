@@ -1,13 +1,14 @@
 
 body {
     font-family: 'Helvetica', 'Arial', sans-serif;
-    color: white;
+	color:white;
+	color: #E0E0E0;
     background: #036 ;
     /*background: linear-gradient(#36F, #F60);*/
     margin-left: auto;
     margin-right: auto;
 	margin-bottom: 20px;
-    max-width: 800px;
+    max-width: 1000px;
     min-width: 256px;
     padding-bottom: 1%;
     padding-left: 2%;
@@ -17,6 +18,7 @@ body {
     border-style:ridge;
     border-color:black;
     box-shadow: 20px 20px black;
+    font-size: 18px;
 }
 
 div.main {
@@ -100,7 +102,7 @@ nav li a:hover {
 article {
     background-color: #003;
     background: #003;
-    color: #ededed;
+	color: #aliceblue;
     padding: 2px;
     padding-left: 10px;
     padding-right:10px;
@@ -132,7 +134,7 @@ article a {
 
 
 article.releases p {
-        padding: 8px
+        padding: 8px;
     }
 
 article.releases img {
@@ -141,17 +143,26 @@ article.releases img {
     }
 
 article.blog p {
-        padding: 8px
+        padding: 8px;
     }
 
-article.blog img {
+article.blog h5 {
+		margin: 8px;
+	}
+
+img.blogpicture {
         float: left;
         margin-right: 15px;
     }
 
 article.blog.noaside {
 	width:auto;
-}
+	}
+
+.toslist {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	}
 
 .pixelart
 {
@@ -168,6 +179,7 @@ article.blog.noaside {
 
 footer {
     background-color: black;
+	color: #C0C0C0;
     background: #003;
     border:2px;
     border-style:outset;
@@ -259,4 +271,10 @@ img.headshot-about {
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff0000",endColorstr="#ff0000",GradientType=1);
 	padding:2px; 
 	margin-right:10px;"
+}
+
+
+img.comm {
+	float: clear;
+
 }
