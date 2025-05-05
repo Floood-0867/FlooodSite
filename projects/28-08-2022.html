@@ -11,6 +11,9 @@
 <!-- <meta content='' property='og:image'> -->
     <meta name="description" content="Ever made a game 7 days? Well, in this last week, one friend and I created a fully playable game with six difficult, but short levels for the Brackeys Game Jam 2022.">
     <meta name="keywords" content="blog, programming, production, video games, journaling, game jam, platformer, game development, brackeys, game, jam">
+
+    <script> document.createElement( "picture" ); // Picture element HTML5 shiv </script>
+    <script src="../js/picturefill.min.js" async> // Allows the SVG version of the logo to be used/displayed instead of the PNG fallback in older browsers that support SVG but not srcset </script>
 </head>
 <body>
 
@@ -24,7 +27,12 @@
     </nav>
 
     <header>
-        <h1 class="logo"><a href="../index.html"><img src="../Logo/FlooodLogoLongTransparentFINAL.svg" width="180" height="96" alt="Floood" /></a></h1>
+        <h1 class="logo"><a href="../index.html">
+        <picture>
+			<source srcset="../Logo/FlooodLogoLongTransparentFINAL.svg" type="image/svg+xml">
+			<img src="../Logo/FlooodLogoLongTransparentWhite.png" width="180" height="96" alt="Floood" />
+        </picture>
+        </a></h1>
     </header>
 
 

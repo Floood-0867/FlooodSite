@@ -11,6 +11,9 @@
     <meta content="Out with the old, in with the new; is a quote some people say. Well I decided to redesign my website to the opposite phrase; Out with the new, in with the old!" property="og:description">
     <meta content="flooodcat.com" property="og:site_name">
     <meta content='https://flooodcat.com/Logo/FlooodLogoSmallNoTransparency.png' property='og:image'>
+
+    <script> document.createElement( "picture" ); // Picture element HTML5 shiv </script>
+    <script src="../js/picturefill.min.js" async> // Allows the SVG version of the logo to be used/displayed instead of the PNG fallback in older browsers that support SVG but not srcset </script>
 </head>
 <body>
 
@@ -24,7 +27,12 @@
     </nav>
 
     <header>
-        <h1 class="logo"><a href="../index.html"><img src="../Logo/FlooodLogoLongTransparentFINAL.svg" width="180" height="96" alt="Floood" /></a></h1>
+        <h1 class="logo"><a href="../index.html">
+        <picture>
+			<source srcset="../Logo/FlooodLogoLongTransparentFINAL.svg" type="image/svg+xml">
+			<img src="../Logo/FlooodLogoLongTransparentWhite.png" width="180" height="96" alt="Floood" />
+        </picture>
+        </a></h1>
     </header>
 
 
